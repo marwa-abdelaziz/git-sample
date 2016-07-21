@@ -1,0 +1,22 @@
+{
+  "name": "degree-api",
+  "version": "1.0.0",
+  "description": "A simple Celsius to Fahrenheit and vice versa conversion API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --recursive -w",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "celsius",
+    "Fahrenheit",
+    "conversion",
+    "api"
+  ],
+  "author": "Mohammed Medhat <medhat.mohammed@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "supertest": "^1.2.0"
+  }
+}
